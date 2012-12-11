@@ -1,7 +1,7 @@
 ietools
 =======
 
-ie debugger tools completely in JavaScript
+IE debugger tools completely in JavaScript
 
 ## SeeCss
 import js at the bottom of html
