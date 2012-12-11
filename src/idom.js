@@ -24,6 +24,15 @@
         return;
     }
 
+    Array.prototype.indexOf = Array.prototype.indexOf || function(str) {
+        for (var i = 0; i < this.length; i++) {
+            if (str === this[i]) {
+                return i;
+            }
+        }
+        return -1;
+    };
+
     /**************************************************
      * dom-drag.js
      * 09.25.2001
